@@ -14,4 +14,12 @@ public class Film {
 		this.titel = titel;
 		this.genre = genre;
 	}
+	
+	public String getTitel(){
+		return titel;
+	}
+	
+	public void setTitel(String titel){
+		this.titel = titel;
+	}
 }
